@@ -120,7 +120,7 @@ describe('App e2e', () => {
       it('should edit user', () => {
         const dto: EditUserDto = {
           firstName: 'Onoy',
-          email: 'onoyahmed@gmail.com', 
+          email: 'onoyahmed@gmail.com',
         };
         return pactum
           .spec()
